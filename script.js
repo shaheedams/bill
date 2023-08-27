@@ -141,7 +141,7 @@ function s() {
     doc.text(172,290, "Propietor");
 
     if(text1.length>0){
-        doc.save('test.pdf');
+        doc.save(`${text1}.pdf`);
     }
 
     
